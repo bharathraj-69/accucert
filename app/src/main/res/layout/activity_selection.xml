@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bg">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="16dp"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="15dp"
+        app:cardBackgroundColor="@android:color/white">
+
+        <com.example.myrenamerexample.SelectionView
+            android:id="@+id/selectionView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:background="@android:color/white" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/generateCertificatesBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GENERATE CERTIFICATES"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:backgroundTint="@color/button1"
+        android:textSize="16sp"
+        android:layout_marginHorizontal="8dp" />
+
+</LinearLayout>

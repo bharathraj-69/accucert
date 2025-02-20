@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AccuCert</string>
+    <string name="upload_text_file">UPLOAD TEXT FILE</string>
+    <string name="upload_your_certificate_file">UPLOAD YOUR CERTIFICATE FILE</string>
+    <string name="upload_certificate">UPLOAD CERTIFICATE</string>
+    <string name="proceed_to_select_text_area">PROCEED TO SELECT TEXT AREA</string>
+    <string name="upload_your_text_file">UPLOAD YOUR TEXT FILE</string>
+    <string name="certificate_renamer">CERTIFICATE RENAMER</string>
+</resources>
